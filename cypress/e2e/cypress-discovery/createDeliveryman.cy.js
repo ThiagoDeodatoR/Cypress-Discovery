@@ -1,6 +1,6 @@
 import signUpPage from '../../pages/SignUpPage'
 import signUpPageFactory from '../../factories/SingUpPageFactory'
-import RequiredFields from '../../factories/RequiredFieldsFactory'
+import requiredFieldsFactory from '../../factories/RequiredFieldsFactory'
 
 describe('createDeliveryman', () => {
     beforeEach(function () {
@@ -58,7 +58,7 @@ describe('createDeliveryman', () => {
     //MORE THAN 1 OF SAME SELECTOR
     //WONT STOP IF FINDS AN ERROR
     context('Required fields with context', function () {
-       var requiredFields = RequiredFields()
+       var requiredFields = requiredFieldsFactory()
 
         before(function () {
             signUpPage.accessPage()
