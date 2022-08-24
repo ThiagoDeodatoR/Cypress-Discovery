@@ -1,3 +1,4 @@
+//VERY BASIC CYPRESS 
 describe('home page', ()=>{
     it('app should be online', ()=>{
         cy.viewport(1440, 900)

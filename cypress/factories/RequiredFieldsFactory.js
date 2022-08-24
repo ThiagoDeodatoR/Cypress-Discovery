@@ -3,7 +3,7 @@ export default function requiredFields () {
     const messages = [
         { field: 'name', output: 'É necessário informar o nome' },
         { field: 'cpf', output: 'É necessário informar o CPF' },
-        { field: 'email', output: 'É necessário informar o e-mail' }, //FORCED ERROR FOR TESTING: E-MAIL INSTEAD OF EMAIL
+        { field: 'email', output: 'É necessário informar o email' }, 
         { field: 'postalcode', output: 'É necessário informar o CEP' },
         { field: 'addressNumber', output: 'É necessário informar o número do endereço' },
         { field: 'deliveryMethod', output: 'Selecione o método de entrega' },
